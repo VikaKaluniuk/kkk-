@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logotext {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url(photo_2022-08-24_16-41-55.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 110px;
+    border-bottom: 2px solid #00a5fd;
+}
